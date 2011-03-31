@@ -48,7 +48,7 @@ public class ForecastInformationManagerTest extends TestCase {
 
 		ForecastInformation info1 = new ForecastInformation();
 		forecastInformationManager.regist(info1);
-		assertEquals(0, catalog.size());
+		assertEquals(1, catalog.size());
 
 
 	}

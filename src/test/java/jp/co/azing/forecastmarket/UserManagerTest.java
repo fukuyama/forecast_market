@@ -18,7 +18,6 @@ public class UserManagerTest extends TestCase {
 		try {
 			mgr.regist(userId, password, name); // 登録
 		} catch (UserRegistException e) {
-			e.printStackTrace();
 			assertTrue(false);
 		}
 
@@ -87,7 +86,6 @@ public class UserManagerTest extends TestCase {
 			user = mgr.getUser("user02");
 			assertTrue(false);
 		} catch (UserNotFound e) {
-			e.printStackTrace();
 		}
 		assertNull(user);// 取れたか確認（取れないのが正解）
 	}
