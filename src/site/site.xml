@@ -2,5 +2,8 @@
 <project name="Forecast Market">
 	<body>
 		<menu ref="reports" />
+		<menu name="ドキュメント">
+			<item name="企画文章" href="plan.html" />
+		</menu>
 	</body>
 </project>
