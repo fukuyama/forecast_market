@@ -23,8 +23,11 @@
     git(http://code.google.com/p/msysgit/)
     mvn(http://maven.apache.org/)
 
-  リポジトリ
+  リポジトリ情報
     https://github.com/fukuyama/forecast_market
+
+  Wiki
+    https://github.com/fukuyama/forecast_market/wiki
 
 ファイル構成
  TBD
