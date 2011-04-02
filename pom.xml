@@ -20,10 +20,16 @@
 		</developer>
 	</developers>
 
+	<scm>
+		<url>https://github.com/fukuyama/forecast_market</url>
+		<developerConnection>scm:git@github.com:fukuyama/forecast_market.git</developerConnection>
+		<connection>scm:git://github.com/fukuyama/forecast_market.git</connection>
+	</scm>
+
 	<distributionManagement>
 		<site>
 			<id>www4.big.or.jp</id>
-			<url>scp://www4.big.or.jp/public/pub2/home2/fukuyama/html/project/forcast_market</url>
+			<url>scp://www4.big.or.jp/public/pub2/home2/fukuyama/html/project/forecast_market/</url>
 		</site>
 	</distributionManagement>
 
@@ -91,7 +97,8 @@
 							<report>dependencies</report>
 							<report>project-team</report>
 							<!-- <report>mailing-list</report> <report>cim</report> <report>issue-tracking</report> 
-								<report>license</report> <report>scm</report> -->
+								<report>license</report> -->
+							<report>scm</report>
 						</reports>
 					</reportSet>
 				</reportSets>
