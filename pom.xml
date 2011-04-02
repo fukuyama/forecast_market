@@ -11,6 +11,22 @@
 	<url>https://github.com/fukuyama/forecast_market/wiki</url>
 	<description>予測市場 (Forecast Market) Webアプリケーション</description>
 
+	<developers>
+		<developer>
+			<id>fukuyama</id>
+			<name>Yoshihito Fukuyama</name>
+			<email>yoshihito.fukuyama@gmail.com</email>
+			<url>http://www4.big.or.jp/~fukuyama/</url>
+		</developer>
+	</developers>
+
+	<distributionManagement>
+		<site>
+			<id>www4.big.or.jp</id>
+			<url>scp://www4.big.or.jp/public/pub2/home2/fukuyama/html/project/forcast_market</url>
+		</site>
+	</distributionManagement>
+
 	<properties>
 		<project.build.sourceEncoding>MS932</project.build.sourceEncoding>
 	</properties>
@@ -74,11 +90,8 @@
 							<report>index</report>
 							<report>dependencies</report>
 							<report>project-team</report>
-							<report>mailing-list</report>
-							<report>cim</report>
-							<report>issue-tracking</report>
-							<report>license</report>
-							<report>scm</report>
+							<!-- <report>mailing-list</report> <report>cim</report> <report>issue-tracking</report> 
+								<report>license</report> <report>scm</report> -->
 						</reports>
 					</reportSet>
 				</reportSets>
