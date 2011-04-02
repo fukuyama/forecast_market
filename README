@@ -32,6 +32,35 @@
   Maven site page
     http://www4.big.or.jp/~fukuyama/project/forecast_market/
 
+ビルド方法
+
+  リポジトリからのソースツリー取得
+
+    Read Onlyの場合
+    --
+    $ git clone git://github.com/fukuyama/forecast_market.git
+    --
+
+    Read/Writeの場合
+    --
+    $ git clone git@github.com:fukuyama/forecast_market.git
+    --
+
+  コンパイル
+  --
+  $ mvn compile
+  --
+
+  テスト
+  --
+  $ mvn test
+  --
+
+  Eclipseで開発
+  --
+  $ mvn eclipse:eclipse
+  --
+
 ファイル構成
  TBD
 
