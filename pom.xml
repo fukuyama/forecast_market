@@ -23,7 +23,7 @@
 	<distributionManagement>
 		<site>
 			<id>www4.big.or.jp</id>
-			<url>scp://www4.big.or.jp/public/pub2/home2/fukuyama/html/project/forcast_market</url>
+			<url>scp://www4.big.or.jp/public/pub2/home2/fukuyama/html/project/forecast_market/</url>
 		</site>
 	</distributionManagement>
 
