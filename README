@@ -1,17 +1,42 @@
-はじめに
- ...
+--------------------------------------------------------------------------
+これは、Webアプリケーション開発の勉強をするためのネタとして
+"予測市場"をWebアプリケーションで作成してみようと計画して作成された
+プロジェクトです。
+--------------------------------------------------------------------------
+
+予測市場のWebアプリケーション(Planning)
+
+ステータス
+  開発計画の企画＆Javaや各種ツールの学習
+
+言語
+  日本語
+  Java
+  html
+  xml
+
+主な開発環境
+
+  ツール
+    JDK(http://java.sun.com/javase/ja/6/download.html)
+    Eclipse(http://www.eclipse.org/)
+    git(http://code.google.com/p/msysgit/)
+    mvn(http://maven.apache.org/)
+
+  リポジトリ
+    https://github.com/fukuyama/forecast_market
 
 ファイル構成
- ...
+ TBD
 
 インストール方法
- ...
+ TBD
 
 アンインストール方法
- ...
+ TBD
 
 使い方
- ...
+ TBD
 
 履歴
- ...
+ 2011/04/02 README作成中
