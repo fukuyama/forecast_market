@@ -244,7 +244,7 @@ public class UserManagerTest extends TestCase {
 		} catch (Exception e) {
 			assertTrue(e instanceof UserNotFound);
 		}
-		
+
 	}
 
 	public void testRemoveTrue02() throws Exception {
@@ -267,7 +267,7 @@ public class UserManagerTest extends TestCase {
 		try {
 			boolean answer = mgr.remove("user00", "test"); // çÌèú
 			assertTrue(answer);
-			assertEquals(1,mgr.size());
+			assertEquals(1, mgr.size());
 		} catch (UserNotFound e) {
 			assertTrue("í Ç¡ÇøÇ·ÇæÇﬂ", false);
 		}
@@ -278,6 +278,6 @@ public class UserManagerTest extends TestCase {
 		} catch (Exception e) {
 			assertTrue(e instanceof UserNotFound);
 		}
-		
+
 	}
 }
