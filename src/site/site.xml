@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Forecast Market">
+	<publishDate position="right"/>
+	<version position="left"/>
+<!--
+	<bannerLeft>
+		<href>https://github.com/fukuyama/forecast_market/wiki</href>
+	</bannerLeft>
+-->
 	<body>
-		<menu ref="reports" />
-		<menu name="ドキュメント">
+		<links>
+			<item name="Github" href="https://github.com/fukuyama/forecast_market" />
+		</links>
+		<menu name="概要">
+			<item name="はじめに" href="index.html" />
+			<item name="ダウンロード" href="download.html" />
+			<item name="使い方" href="usage.html" />
+			<item name="FAQ" href="faq.html" />
+			<!-- リリースノート -->
+			<!-- ロードマップ -->
 			<item name="企画文章" href="plan.html" />
+		</menu>
+		<menu ref="reports" />
+		<menu name="links">
+			<item name="Github" href="https://github.com/fukuyama/forecast_market" />
 		</menu>
 	</body>
 </project>
