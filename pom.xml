@@ -82,7 +82,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <fileset-config file-format-version="1.2.0" simple-config="true" sync-formatter="false">
-  <local-check-config name="checkstyle" location="checkstyle.xml" type="project" description="">
+  <local-check-config name="checkstyle" location="src/main/conf/checkstyle.xml" type="project" description="">
     <additional-data name="protect-config-file" value="false"/>
   </local-check-config>
   <fileset name="all" enabled="true" check-config-name="checkstyle" local="true">
@@ -105,7 +105,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-					<configLocation>checkstyle.xml</configLocation>
+					<configLocation>src/main/conf/checkstyle.xml</configLocation>
 				</configuration>
 			</plugin>
 			<plugin>
