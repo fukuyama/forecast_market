@@ -63,8 +63,8 @@ public final class UserManager {
 		// i を1からインクリメントしながらループ
 		for (int i = 1; i <= Integer.MAX_VALUE; i++) {
 			// ユーザーリストのループ
-			for (Iterator<User> iterator = users.iterator(); iterator.hasNext();) {
-				User user = (User) iterator.next();
+			for (Iterator<User> it = users.iterator(); it.hasNext();) {
+				User user = (User) it.next();
 				// リストに入っているUserの番号を調べる
 				// i と ユーザー番号を比較
 				if (i == user.getUserNumber()) {
@@ -72,7 +72,7 @@ public final class UserManager {
 					break;
 				} else {
 					// 違ったら
-					if (!iterator.hasNext()) {
+					if (!it.hasNext()) {
 						// それが最後のユーザーか？
 						// 最後のユーザーならi を返す
 						return i;
@@ -93,7 +93,7 @@ public final class UserManager {
 	}
 
 	/**
-	 * 認証
+	 * 認証.
 	 * 
 	 * @param userId
 	 * @param password

@@ -2,14 +2,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>jp.co.azing.study</groupId>
+	<groupId>jp.co.azing.forecast_market</groupId>
 	<artifactId>forecast_market</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>Forecast Market</name>
 	<url>https://github.com/fukuyama/forecast_market/wiki</url>
 	<description>予測市場 (Forecast Market) Webアプリケーション</description>
+
+	<modules>
+		<module>forecast_market_core</module>
+	</modules>
 
 	<developers>
 		<developer>
@@ -82,7 +86,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <fileset-config file-format-version="1.2.0" simple-config="true" sync-formatter="false">
-  <local-check-config name="checkstyle" location="src/main/conf/checkstyle.xml" type="project" description="">
+  <local-check-config name="checkstyle" location="${basedir}/../src/main/conf/checkstyle.xml" type="external" description="maven project config.">
     <additional-data name="protect-config-file" value="false"/>
   </local-check-config>
   <fileset name="all" enabled="true" check-config-name="checkstyle" local="true">
@@ -105,7 +109,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-					<configLocation>src/main/conf/checkstyle.xml</configLocation>
+					<configLocation>${basedir}/../src/main/conf/checkstyle.xml</configLocation>
 				</configuration>
 			</plugin>
 			<plugin>

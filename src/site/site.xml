@@ -21,6 +21,7 @@
 			<item name="企画文章" href="plan.html" />
 		</menu>
 		<menu ref="reports" />
+		<menu ref="modules" />
 		<menu name="links">
 			<item name="Github" href="https://github.com/fukuyama/forecast_market" />
 		</menu>

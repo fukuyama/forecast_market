@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Forecast Market Core">
+	<publishDate position="right"/>
+	<version position="left"/>
+	<body>
+		<menu ref="parent" />
+		<menu ref="reports" />
+	</body>
+</project>
