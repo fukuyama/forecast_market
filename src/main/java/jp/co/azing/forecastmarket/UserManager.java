@@ -1,24 +1,23 @@
 package jp.co.azing.forecastmarket;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 /**
- * ユーザ管理クラス
+ * ユーザ管理クラス.
  * 
  * @author taneoka
  * 
  */
-public class UserManager {
+public final class UserManager {
 	/**
-	 * ユーザリスト
+	 * ユーザリスト.
 	 */
 	private List<User> users = new ArrayList<User>();
 
 	/**
-	 * ユーザ登録
+	 * ユーザ登録.
 	 * 
 	 * @param loginId
 	 *            ユーザＩＤ
@@ -52,7 +51,7 @@ public class UserManager {
 	/**
 	 * ユーザー番号生成. ユーザーリストから使用されていないユーザー番号を探す
 	 * 
-	 * @return
+	 * @return ユーザー番号
 	 */
 	private int generateUserNumber() {
 		// ユーザーリストが空だったら
