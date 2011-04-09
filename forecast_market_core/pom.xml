@@ -16,4 +16,15 @@
 	<url>https://github.com/fukuyama/forecast_market/wiki</url>
 	<description>予測市場 (Forecast Market) Coreモジュール</description>
 
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-site-plugin</artifactId>
+				<configuration>
+					<outputDirectory>${project.parent.reporting.outputDirectory}/${project.name}</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
