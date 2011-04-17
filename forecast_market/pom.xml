@@ -12,7 +12,7 @@
 	<description>予測市場 (Forecast Market) Webアプリケーション</description>
 
 	<modules>
-		<module>forecast_market_core</module>
+		<module>../forecast_market_core</module>
 	</modules>
 
 	<developers>
@@ -87,7 +87,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <fileset-config file-format-version="1.2.0" simple-config="true" sync-formatter="false">
-  <local-check-config name="checkstyle" location="${basedir}/../src/main/conf/checkstyle.xml" type="external" description="maven project config.">
+  <local-check-config name="checkstyle" location="${basedir}/../forecast_market/src/main/conf/checkstyle.xml" type="external" description="maven project config.">
     <additional-data name="protect-config-file" value="false"/>
   </local-check-config>
   <fileset name="all" enabled="true" check-config-name="checkstyle" local="true">
@@ -110,7 +110,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-					<configLocation>${basedir}/../src/main/conf/checkstyle.xml</configLocation>
+					<configLocation>${basedir}/../forecast_market/src/main/conf/checkstyle.xml</configLocation>
 				</configuration>
 			</plugin>
 			<plugin>

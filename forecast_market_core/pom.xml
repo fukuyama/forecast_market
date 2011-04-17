@@ -6,7 +6,7 @@
 		<groupId>jp.co.azing.forecast_market</groupId>
 		<artifactId>forecast_market</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath>..</relativePath>
+		<relativePath>../forecast_market</relativePath>
 	</parent>
 
 	<artifactId>forecast_market_core</artifactId>
