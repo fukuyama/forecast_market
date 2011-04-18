@@ -66,7 +66,8 @@
   --
 
 ファイル構成
- TBD
+ forecast_market      トッププロジェクト
+ forecast_market_core コア
 
 インストール方法
  TBD
