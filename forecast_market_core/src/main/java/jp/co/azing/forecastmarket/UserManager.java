@@ -83,6 +83,13 @@ public final class UserManager {
 		return 1;
 	}
 
+	/**
+	 * ユーザーの存在チェック.
+	 * 
+	 * @param userId
+	 *            ユーザーＩＤ
+	 * @return ユーザが存在したら　true.
+	 */
 	private boolean existsUser(String userId) {
 		try {
 			getUser(userId);
@@ -96,7 +103,9 @@ public final class UserManager {
 	 * 認証.
 	 * 
 	 * @param userId
+	 *            　ユーザーＩＤ
 	 * @param password
+	 *            パスワード
 	 * @return 認証結果　成功したらtrue　
 	 */
 	public boolean auth(String userId, String password) {
