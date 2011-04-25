@@ -22,6 +22,12 @@
 			<email>yoshihito.fukuyama@gmail.com</email>
 			<url>http://www4.big.or.jp/~fukuyama/</url>
 		</developer>
+		<developer>
+			<id>imamura</id>
+			<name>Yousuke Imamra/name>
+			<email>wayne.dif@gmail.com</email>
+			<url></url>
+		</developer>
 	</developers>
 
 	<scm>
