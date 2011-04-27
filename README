@@ -18,10 +18,10 @@
 主な開発環境
 
   ツール
-    JDK(http://java.sun.com/javase/ja/6/download.html)
-    Eclipse(http://www.eclipse.org/)
-    git(http://code.google.com/p/msysgit/)
-    mvn(http://maven.apache.org/)
+    JDK 1.6+ (http://java.sun.com/javase/ja/6/download.html)
+    Eclipse 3.6+ (http://www.eclipse.org/)
+    git 1.7.4+ (http://code.google.com/p/msysgit/)
+    mvn 3.0+ (http://maven.apache.org/)
 
     Eclipse plugins
      AmaterasUML(http://amateras.sourceforge.jp/cgi-bin/fswiki/wiki.cgi?page=AmaterasUML)
