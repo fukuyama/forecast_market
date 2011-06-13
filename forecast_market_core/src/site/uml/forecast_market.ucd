@@ -511,21 +511,6 @@
                                                 </java.beans.PropertyChangeSupport>
                                               </listeners>
                                             </net.java.amateras.uml.usecasediagram.model.UsecaseIncludeModel>
-                                            <net.java.amateras.uml.usecasediagram.model.UsecaseGeneralizationModel>
-                                              <source class="net.java.amateras.uml.usecasediagram.model.UsecaseModel" reference="../../.."/>
-                                              <target class="net.java.amateras.uml.usecasediagram.model.UsecaseModel" reference="../../../../../../../../.."/>
-                                              <bendpoints/>
-                                              <showIcon>true</showIcon>
-                                              <listeners serialization="custom">
-                                                <java.beans.PropertyChangeSupport>
-                                                  <default>
-                                                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
-                                                    <source class="net.java.amateras.uml.usecasediagram.model.UsecaseGeneralizationModel" reference="../../../.."/>
-                                                  </default>
-                                                  <null/>
-                                                </java.beans.PropertyChangeSupport>
-                                              </listeners>
-                                            </net.java.amateras.uml.usecasediagram.model.UsecaseGeneralizationModel>
                                           </sourceConnections>
                                           <targetConnections>
                                             <net.java.amateras.uml.usecasediagram.model.UsecaseRelationModel>
@@ -671,7 +656,6 @@
                                     </java.beans.PropertyChangeSupport>
                                   </listeners>
                                 </net.java.amateras.uml.usecasediagram.model.UsecaseRelationModel>
-                                <net.java.amateras.uml.usecasediagram.model.UsecaseGeneralizationModel reference="../../sourceConnections/net.java.amateras.uml.usecasediagram.model.UsecaseIncludeModel[3]/target/targetConnections/net.java.amateras.uml.usecasediagram.model.UsecaseIncludeModel[2]/source/sourceConnections/net.java.amateras.uml.usecasediagram.model.UsecaseGeneralizationModel"/>
                               </targetConnections>
                               <children/>
                               <filterProperty/>
