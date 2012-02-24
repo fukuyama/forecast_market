@@ -1,9 +1,5 @@
 package jp.co.azing.forecastmarket;
 
-import jp.co.azing.forecastmarket.User;
-import jp.co.azing.forecastmarket.UserManager;
-import jp.co.azing.forecastmarket.UserNotFound;
-import jp.co.azing.forecastmarket.UserRegistException;
 import junit.framework.TestCase;
 
 public class UserManagerTest extends TestCase {
@@ -214,7 +210,7 @@ public class UserManagerTest extends TestCase {
 		String password = "bbb";// パスワード
 
 		try {
-			boolean answer = mgr.remove(userId, password);
+			mgr.remove(userId, password);
 			assertTrue(false);
 		} catch (UserNotFound e) {
 			assertTrue(true);

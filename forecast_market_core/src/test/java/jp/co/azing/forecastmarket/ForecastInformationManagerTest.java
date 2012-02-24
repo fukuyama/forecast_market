@@ -1,12 +1,10 @@
 /**
- *
+ * ForecastInformationManagerTest.
  */
 package jp.co.azing.forecastmarket;
 
 import java.util.List;
 
-import jp.co.azing.forecastmarket.ForecastInformation;
-import jp.co.azing.forecastmarket.ForecastInformationManager;
 import junit.framework.TestCase;
 
 /**
@@ -45,7 +43,7 @@ public class ForecastInformationManagerTest extends TestCase {
 	 */
 	public void testCatalog() {
 		ForecastInformationManager forecastInformationManager = new ForecastInformationManager();
-		List catalog = forecastInformationManager.catalog();
+		List<ForecastInformation> catalog = forecastInformationManager.catalog();
 
 		// ˆê——‚ÌƒTƒCƒY‚ª0‚È‚ç‚ÎOK
 		assertEquals(0, catalog.size());

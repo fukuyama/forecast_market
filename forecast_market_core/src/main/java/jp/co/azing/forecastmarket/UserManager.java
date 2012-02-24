@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * ユーザ管理クラス.
  * 
- * @author taneoka
+ * @author taneoka,fukuyama
  * 
  */
 public final class UserManager {
@@ -124,16 +124,22 @@ public final class UserManager {
 			// 偽なら、認証ＮＧ
 		} catch (UserNotFound e) {
 			// なければ認証ＮＧ
+			return false;
 		}
 
 		return false;
 	}
 
 	/**
-	 * ユーザ情報取得
+	 * ユーザ情報取得.
 	 * 
 	 * @param userId
-	 * @return　ユーザ情報　User
+	 *            ユーザＩＤ
+	 * 
+	 * @return ユーザー情報
+	 * 
+	 * @throws UserNotFound
+	 *             ユーザーなし
 	 */
 	public User getUser(String userId) throws UserNotFound {
 		// リストから引数のユーザIDを持っているユーザを探す
@@ -150,9 +156,9 @@ public final class UserManager {
 	}
 
 	/**
-	 * ユーザーの数
+	 * ユーザーの数.
 	 * 
-	 * @return
+	 * @return ユーザーの数
 	 */
 	public int size() {
 		return users.size();
@@ -162,8 +168,13 @@ public final class UserManager {
 	 * ユーザー削除.
 	 * 
 	 * @param userId
+	 *            ユーザーID
 	 * @param password
+	 *            パスワード
 	 * @return 正否
+	 * 
+	 * @throws UserNotFound
+	 *             ユーザーなし
 	 */
 	public boolean remove(String userId, String password) throws UserNotFound {
 		// userId のユーザー情報を取得
