@@ -18,7 +18,12 @@ public class ForecastInformationManagerTest extends TestCase {
 	 * のためのテスト・メソッド。
 	 */
 	public void testRegist() {
-		fail("まだ実装されていません。");
+		ForecastInformationManager fim = new ForecastInformationManager();
+		ForecastInformation info = new ForecastInformation();
+		info.setForecastName("forecastName");
+		assertEquals(0, fim.catalog().size());
+		fim.regist(info);
+		assertEquals(1, fim.catalog().size());
 	}
 
 	/**
@@ -26,7 +31,14 @@ public class ForecastInformationManagerTest extends TestCase {
 	 * のためのテスト・メソッド。
 	 */
 	public void testUpdate() {
-		fail("まだ実装されていません。");
+		ForecastInformationManager fim = new ForecastInformationManager();
+		ForecastInformation info = new ForecastInformation();
+		info.setForecastName("forecastName");
+		assertEquals(0, fim.catalog().size());
+		fim.regist(info);
+		assertEquals(1, fim.catalog().size());
+		boolean update = fim.update(info);
+		assertTrue(update);
 	}
 
 	/**
@@ -34,7 +46,15 @@ public class ForecastInformationManagerTest extends TestCase {
 	 * のためのテスト・メソッド。
 	 */
 	public void testRemove() {
-		fail("まだ実装されていません。");
+		ForecastInformationManager fim = new ForecastInformationManager();
+		ForecastInformation info = new ForecastInformation();
+		info.setForecastName("forecastName");
+		assertEquals(0, fim.catalog().size());
+		fim.regist(info);
+		assertEquals(1, fim.catalog().size());
+		boolean remove = fim.remove(info);
+		assertTrue(remove);
+		assertEquals(0, fim.catalog().size());
 	}
 
 	/**
@@ -42,8 +62,10 @@ public class ForecastInformationManagerTest extends TestCase {
 	 * のためのテスト・メソッド。
 	 */
 	public void testCatalog() {
-		ForecastInformationManager forecastInformationManager = new ForecastInformationManager();
-		List<ForecastInformation> catalog = forecastInformationManager.catalog();
+		ForecastInformationManager forecastInformationManager =
+				new ForecastInformationManager();
+		List<ForecastInformation> catalog =
+				forecastInformationManager.catalog();
 
 		// 一覧のサイズが0ならばOK
 		assertEquals(0, catalog.size());

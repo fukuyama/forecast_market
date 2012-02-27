@@ -5,8 +5,8 @@ import java.util.Date;
 public class ForecastInformation {
 
 	private int forecastNumber;
-	private char forecastName;
-	private char forecastMatter;
+	private String forecastName;
+	private String forecastMatter;
 	private Date entryTime;
 	private Date endTime;
 	private int totalSell;
@@ -21,19 +21,19 @@ public class ForecastInformation {
 		this.forecastNumber = forecastNumber;
 	}
 
-	public char getForecastName() {
+	public String getForecastName() {
 		return forecastName;
 	}
 
-	public void setForecastName(char forecastName) {
+	public void setForecastName(String forecastName) {
 		this.forecastName = forecastName;
 	}
 
-	public char getForecastMatter() {
+	public String getForecastMatter() {
 		return forecastMatter;
 	}
 
-	public void setForecastMatter(char forecastMatter) {
+	public void setForecastMatter(String forecastMatter) {
 		this.forecastMatter = forecastMatter;
 	}
 

@@ -38,7 +38,7 @@ public final class ForecastInformationManager {
 	 * @return XV‚µ‚½ê‡ true
 	 */
 	public boolean update(ForecastInformation information) {
-		return false;
+		return true;
 
 	}
 
@@ -50,7 +50,8 @@ public final class ForecastInformationManager {
 	 * @return íœ‚µ‚½ê‡ true
 	 */
 	public boolean remove(ForecastInformation information) {
-		return false;
+		boolean remove = infos.remove(information);
+		return remove;
 
 	}
 
