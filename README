@@ -65,6 +65,11 @@
   $ mvn eclipse:eclipse
   --
 
+  site 作成
+  --
+  $ mvn site site:stage
+  --
+
 ファイル構成
  forecast_market      トッププロジェクト
  forecast_market_core コア
